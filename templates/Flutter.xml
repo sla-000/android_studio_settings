@@ -1,0 +1,19 @@
+<templateSet group="Flutter">
+  <template name="tcf" value="try {&#10;} on Exception catch(error) {&#10;} finally {&#10;}" description="try-catch-finally" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="logger" value="final Logger _log = Logger('xxx')..level = Level.FINEST;" description="Logger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="log" value="_log.finest(() =&gt; 'build:');" description="Logger record" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+</templateSet>
