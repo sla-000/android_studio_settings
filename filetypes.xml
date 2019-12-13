@@ -1,7 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="mocked_data" type="Dart" />
-    </extensionMap>
-  </component>
-</application>
