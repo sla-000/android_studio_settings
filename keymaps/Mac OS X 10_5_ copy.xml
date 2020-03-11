@@ -2,6 +2,9 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="Flutter.ExtractWidget">
+    <keyboard-shortcut first-keystroke="meta alt comma" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
