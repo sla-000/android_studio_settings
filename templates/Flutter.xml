@@ -16,4 +16,11 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
+  <template name="wc" value="const FooWidget({&#10;    Key key,&#10;    this.bar,&#10;  }) : super(key: key);&#10;  &#10;final String bar;" description="Widget constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
 </templateSet>
