@@ -5,12 +5,12 @@
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
-  <template name="logger" value="final Logger _log = Logger('xxx')..level = Level.FINEST;" description="Logger" toReformat="false" toShortenFQNames="true">
+  <template name="logger" value="final Logger _log = Logger('xxx');" description="Logger" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="log" value="_log.finest(() =&gt; 'build:');" description="Logger record" toReformat="false" toShortenFQNames="true">
+  <template name="logf" value="_log.finest(() =&gt; 'build:');" description="Logger record" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
       <option name="DART_TOPLEVEL" value="false" />
@@ -20,6 +20,18 @@
     <context>
       <option name="DART" value="true" />
       <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="logi" value="_log.info(() =&gt; 'build:');" description="Logger record" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="logw" value="_log.warning(() =&gt; 'build:');" description="Logger record" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
       <option name="DART_TOPLEVEL" value="false" />
     </context>
   </template>
