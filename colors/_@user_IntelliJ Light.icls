@@ -4,16 +4,16 @@
     <property name="created">2020-10-13T16:10:30</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">4.1.0.19</property>
-    <property name="modified">2020-11-16T14:02:39</property>
+    <property name="modified">2021-01-02T18:51:55</property>
     <property name="originalScheme">IntelliJ Light</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="PT Mono" />
-    <option name="EDITOR_FONT_SIZE" value="10" />
+    <option name="EDITOR_FONT_SIZE" value="11" />
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="10" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <colors>
