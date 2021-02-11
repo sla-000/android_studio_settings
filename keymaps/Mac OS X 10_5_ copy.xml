@@ -20,6 +20,9 @@
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl meta p" />
   </action>
+  <action id="Tool_External Tools_Format -l 120">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="Tool_External Tools_Format file">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
