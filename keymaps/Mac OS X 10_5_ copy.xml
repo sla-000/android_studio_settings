@@ -7,6 +7,9 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="Dart.DartStyle">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="Flutter.ExtractWidget">
     <keyboard-shortcut first-keystroke="meta alt comma" />
   </action>
