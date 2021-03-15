@@ -10,6 +10,9 @@
   <action id="Dart.DartStyle">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="Dart.Restart.Analysis.Server">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
   <action id="Flutter.ExtractWidget">
     <keyboard-shortcut first-keystroke="meta alt comma" />
   </action>
