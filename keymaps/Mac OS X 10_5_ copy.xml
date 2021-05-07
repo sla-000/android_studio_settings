@@ -7,6 +7,9 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+  </action>
   <action id="Dart.DartStyle">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
