@@ -16,7 +16,7 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.arb</mask>
-    <mask>*.yaml</mask>
     <mask>*.lock</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
