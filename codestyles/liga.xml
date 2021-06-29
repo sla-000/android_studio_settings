@@ -1,6 +1,12 @@
 <code_scheme name="liga" version="173">
   <option name="RIGHT_MARGIN" value="120" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
+  <codeStyleSettings language="Dart">
+    <option name="RIGHT_MARGIN" value="120" />
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
