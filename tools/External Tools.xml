@@ -20,10 +20,10 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="Rebuild" description="Rebuild" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Rebuild" description="Rebuild selected dir" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="flutter" />
-      <option name="PARAMETERS" value="packages pub run build_runner build --delete-conflicting-outputs" />
+      <option name="PARAMETERS" value="pub run build_runner build --delete-conflicting-outputs --build-filter &quot;$FileDirRelativeToProjectRoot$/**&quot;" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
