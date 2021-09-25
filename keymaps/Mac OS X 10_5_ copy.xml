@@ -42,6 +42,12 @@
   <action id="Tool_External Tools_Rebuild">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
+  <action id="Tool_External Tools_Rebuild by filter">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
+  <action id="Tool_External Tools_Rebuild package">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="Tool_External Tools_Rebuild-format">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
