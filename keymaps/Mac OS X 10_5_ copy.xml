@@ -14,11 +14,12 @@
   <action id="Dart.DartStyle">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
-  <action id="Dart.Restart.Analysis.Server">
-    <keyboard-shortcut first-keystroke="ctrl alt a" />
-  </action>
   <action id="Flutter.ExtractWidget">
     <keyboard-shortcut first-keystroke="meta alt comma" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -29,6 +30,9 @@
   </action>
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
+  <action id="Tool_External Tools_Flutter analyze">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
   <action id="Tool_External Tools_Flutter clean">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
