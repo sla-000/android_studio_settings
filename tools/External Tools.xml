@@ -45,7 +45,7 @@
     <exec>
       <option name="COMMAND" value="flutter" />
       <option name="PARAMETERS" value="analyze" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
 </toolSet>
